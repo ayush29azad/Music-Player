@@ -1,0 +1,339 @@
+#slider 
+{
+	overflow: hidden;
+    margin-top:-4px;
+   
+}
+#slider figure 
+{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 6s slider infinite;
+	height:40%;
+}
+
+#slider figure img 
+{
+	width: 20%;
+    height:553px;
+	float: left;
+    background-attachment:fixed;
+    
+}
+@keyframes slider 
+{
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+    
+
+    #India
+
+ {
+
+
+  animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  0% { color: orange; }
+  50% { color: white; }
+  100% { color: green; }
+}
+
+    
+    
+    
+
+/*------------------------------------*/   
+
+#albums
+{
+
+display:flex;
+margin-top:20px;
+min-height:200px;
+
+}
+
+
+
+#albums img
+{
+
+    width: 140px; /* or any custom size */
+    height: 140px; 
+    object-fit: contain;
+
+}
+
+
+.music-cards
+{
+    
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    width:180%;
+    align-content: flex-start;
+    margin-right:20px;
+    min-height:200px;
+}
+
+
+
+.zoom ,.hover-button:hover 
+{
+
+opacity:1;
+color:white;
+
+}
+
+.music-info
+{
+
+   
+width:150px;
+margin:2px;
+height:150px;
+margin-top:20px;
+padding:10px;
+display:flex;
+flex-direction:column;
+display:inline-block ;
+text-align: center;
+
+
+}
+
+#big 
+{
+width:400px;
+height:400px;
+}
+
+
+
+#big i
+{
+
+  margin-top:25px;
+}
+
+.zoom2
+{
+
+  border-radius: 250px;
+  width:400px;
+  height:400px;
+}
+
+.hover-button 
+{
+ font-size: 80px;
+margin-top: -110%;
+color:white;
+opacity:0;
+  transition:  1.2s;
+  width:102%;
+height:100%;
+padding-top:12px;
+}
+
+
+#latest-release
+{
+background-image: url("https://i.pinimg.com/originals/10/ad/5a/10ad5a61469c0428c4701c602e8839e6.jpg");
+background: cover;
+
+}
+
+
+    
+.sidebar 
+{
+
+  margin: 0;
+  padding: 0;
+  width: 222px;
+  background-color: #f1f1f1;
+  height: 100%;
+ 
+}
+
+.sidebar a 
+{
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active 
+{
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active)
+{
+  background-color: #555;
+  color: white;
+}
+
+div.content 
+{
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+
+}
+
+.dropdown 
+{
+  position: relative;
+  display: inline-block;
+  margin-left:16%;
+   color: #818181;
+font-size:22px;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  opacity: 0.4;
+
+
+}
+
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+  opacity:1;
+
+}
+
+
+
+/*-----------------------------------------------*/
+
+.sidenav 
+{
+  font-family:AppleSDGothicNeo-UltraLight;
+
+
+  height: 90.5%;
+  width: 220px;
+  position: fixed;
+  z-index: 10
+  top: 0;
+  left: 0;
+   background-image:  url(https://i.pinimg.com/originals/10/5b/18/105b18b8db617d4c02aa417cadbdae57.jpg);
+   background-image: cover;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.sidenav a
+ {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  margin-left:20px;
+}
+
+.sidenav a:hover 
+{
+  color: white;
+
+}
+
+#fav
+{
+    color:white;
+    width:100%;
+  
+    display:flex;
+    flex-direction:column;
+    
+}
+
+
+.fav-child
+{
+    
+    height:40px;
+    margin-top:10px;
+    
+}
+
+
+.micro
+{
+    background-color:rgb(238, 85, 53);
+
+}
+
+
+#search
+{
+
+
+border-radius: 50px;
+margin-left:20px;
+height:30px;
+outline:none;
+}
+
+.icon-search {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+    
+    

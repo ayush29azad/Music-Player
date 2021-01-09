@@ -1,0 +1,431 @@
+body
+{
+    overflow-x: hidden;
+            background-image : url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+   background-image: cover;
+   font-family: AppleSDGothicNeo-UltraLight;
+   padding-bottom: 900px;
+}
+
+div,section
+{
+    
+    oveflow:hidden;
+
+}
+h3
+{
+    font-weight: 900;
+    font-size:1.5rem;
+
+}
+
+
+#arijit
+{
+
+background-repeat: no-repeat;
+width:100%;
+
+
+}
+
+
+
+
+
+#main
+{
+    flex-direction:row;
+    display:flex;
+    width:100%;
+}
+
+#main1
+{
+
+ display:flex;
+ flex-direction:column;
+ display:flex;
+ width:600px;
+ justify-content:space-around;
+ flex-wrap:wrap;
+ min-width:300px;
+
+}
+
+
+
+
+#main2
+{
+
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+display:flex;
+margin-left:10px;
+flex-wrap:wrap;
+align-items: center;
+margin-left: 40px;
+min-width:40px;
+padding-left: 20px;
+
+
+   
+}
+
+
+
+
+.main-1-child
+{
+   display:flex;
+   margin-left:50px;
+   height:70px;
+   min-width:100px;
+   justify-content:space-between;
+   background-image: url("https://image.freepik.com/free-vector/3d-gold-studio-room-background_78474-219.jpg");
+   background-image: cover;
+   margin-top:40px;
+
+}
+
+
+
+
+#arijit-pic 
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-height:300px;
+    background-image:url("https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+   background-image: cover;
+
+    padding-left: 10px;
+    font-weight:600;
+
+}
+
+
+
+
+#arijit-pic img
+{
+ 
+    width:80%;
+
+    
+}
+
+#arijit-pic button
+{
+ 
+    height:2rem;
+    margin-top:20px;
+    width:120px;
+    padding:8px;
+    
+}
+#arijit-pic p
+{
+line-height: 1.1;
+margin-top:-10px;
+}
+
+.arijit-album
+{
+    width:66px;
+    margin-left:0px;
+
+
+    
+    
+    
+}
+
+
+#icon
+{
+
+margin-top:23px;
+display:inline-block;
+align-self: flex-end;
+
+display:flex;
+font-size:20px;
+
+    
+}
+#icon-hover
+{
+  color:white;
+  font-size:40px;
+  margin-top:-60%;
+  margin-left: 30%;
+  opacity: 0;
+
+}
+
+#icon-hover:hover
+{
+
+opacity: 1;
+transition-duration: 1.3s;
+
+}
+
+.album-title
+{
+  margin-top:23px;
+  margin-left:26px;
+  font-weight: 900;
+    
+}
+
+
+.album-no
+{
+      margin-top:23px;
+     font-size:21px;
+
+    
+}
+
+
+
+#icon:hover
+{
+    color:red;
+}
+
+
+#cars
+{
+margin-left:20px;
+    width:23px;
+    height:23px; 
+    color:white;
+  background-color: black;
+  
+}
+
+#buttons
+{
+    font-size:3.5rem;
+  
+    
+}
+
+#arijit-pic button
+{
+
+padding: 6px;
+border-radius: 10px;
+outline: none;
+background-color: rgb(255, 216, 79);
+}
+
+#zoom
+{
+
+  width:120px;
+  height: 120px;
+
+}
+
+
+
+.main-2-square
+{
+    
+    display:flex;
+  flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items: center;
+
+    
+}
+
+
+
+.main-2-child
+{
+    
+    width:140px;
+    height:140px;
+
+    
+}
+
+#queue h3
+{
+ 
+margin-left: 40%;
+
+}
+  
+
+
+
+@media only screen and (max-width: 600px) 
+{
+    
+    
+  body 
+  {
+    background-color: lightblue;
+
+  }
+    
+    #main2
+    {
+        
+        margin-left: -40px;       
+        
+    }
+    
+  
+    
+    
+    #queue
+    {
+      transition: ease all .5s;
+        position:relative;
+        left:-260px;
+        top:270px;
+        
+        
+    }
+
+
+#queue h3
+{
+  position: relative;
+  top:-500px;
+
+
+
+}
+
+
+
+
+
+
+
+
+#child
+{
+
+  margin-top:-500px;
+ 
+}
+
+#child2
+{
+
+
+z-index: 10;
+
+}
+
+#child1 
+{
+
+
+  color:white;
+}
+
+#arijit-pic 
+{
+ 
+   
+    margin-top:-210px;
+}
+
+
+
+
+
+
+
+    
+    
+}
+
+
+
+
+#bio
+{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+
+
+
+audio
+{
+    display:block;
+    margin: auto;
+    width:500px;
+  
+   
+ }
+#audio-dash
+{
+  position:fixed;
+ 
+  display:flex;
+  width:100%;
+  height:80px;
+
+background-color: rgb(247, 199, 24);
+z-index: 11;
+  align items :center;
+margin-top:89vh;
+
+  
+  
+}
+#audio-dash img
+{
+  height:80px;
+  width:80px;
+  border-radius: 50%;
+padding:5px;
+  
+}
+
+
+@media only screen and (min-width: 1300px)
+{
+
+  #main2
+  {
+
+  
+    transition: ease all 0.000001s;
+  }
+} 
+
+
+@media only screen and (min-width: 450px)
+{
+#queue
+{
+
+  margin-left: -20px;
+}
+
+
+  
+} 
+
+
+
